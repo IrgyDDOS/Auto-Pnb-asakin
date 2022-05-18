@@ -1,0 +1,18 @@
+-----================== Start Edit ==================-----
+
+botname = "urbotname" -- Name Bot
+botpas = "pass@" -- Password Bot
+speed = 15000 -- Delay Login bot
+botstart = 1 --bot start number
+botend = 2 -- bot end number
+
+-----==================  End Edit  ==================-----
+
+for i = botstart,botend,1 do
+bot = (botname..botstart)
+addBot(bot,botpas)
+sleep(500)
+sleep(speed)
+botstart = botstart + 1
+sleep(800)
+end
